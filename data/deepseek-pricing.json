@@ -1,0 +1,84 @@
+{
+  "publisher": "deepseek.ai — The Independent DeepSeek Guide (not affiliated with DeepSeek)",
+  "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Data by deepseek.ai (https://deepseek.ai/deepseek-data)",
+  "docs": "https://deepseek.ai/deepseek-data",
+  "lastVerified": "2026-11-19",
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "currency": "USD",
+  "unit": "USD per 1,000,000 tokens",
+  "peakHoursUTC": "01:00–04:00 and 06:00–10:00 UTC, Monday to Friday, excluding Chinese public holidays",
+  "note": "Default rates are off-peak. During DeepSeek's peak hours every rate is doubled (see `peak`).",
+  "models": [
+    {
+      "model": "DeepSeek-V4.1-Flash",
+      "apiName": "deepseek-flash",
+      "offPeak": {
+        "inputCacheMiss": 0.15,
+        "inputCacheHit": 0.003,
+        "output": 0.6
+      },
+      "peak": {
+        "inputCacheMiss": 0.3,
+        "inputCacheHit": 0.006,
+        "output": 1.2
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Pro",
+      "apiName": "deepseek-v4-pro",
+      "offPeak": {
+        "inputCacheMiss": 0.66,
+        "inputCacheHit": 0.022,
+        "output": 1.98
+      },
+      "peak": {
+        "inputCacheMiss": 1.32,
+        "inputCacheHit": 0.044,
+        "output": 3.96
+      }
+    }
+  ],
+  "history": [
+    {
+      "model": "DeepSeek-V4-Pro",
+      "effectiveUntil": "2026-05-31",
+      "note": "Previous V4-Pro standard rates. Superseded on 2026-05-31 by lower rates (originally introduced as a 75% promotional discount).",
+      "rates": {
+        "inputCacheMiss": 1.74,
+        "inputCacheHit": 0.0145,
+        "output": 3.48
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Pro",
+      "effectiveUntil": "2026-08-16",
+      "note": "Flat V4-Pro rates with no time tiers. Superseded at 16:00 UTC on 16 August 2026, when DeepSeek introduced peak / off-peak pricing (today's V4-Pro off-peak rates).",
+      "rates": {
+        "inputCacheMiss": 0.435,
+        "inputCacheHit": 0.003625,
+        "output": 0.87
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "effectiveUntil": "2026-08-16",
+      "note": "Flat DeepSeek-V4-Flash rates with no time tiers. Superseded at 16:00 UTC on 16 August 2026 by peak / off-peak pricing.",
+      "rates": {
+        "inputCacheMiss": 0.14,
+        "inputCacheHit": 0.0028,
+        "output": 0.28
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "effectiveUntil": "2026-09-10",
+      "note": "DeepSeek-V4-Flash off-peak rates from 16 August 2026 (peak was double: $0.44 / $0.014 / $1.32). Cut at 04:00 UTC on 10 September 2026 with the DeepSeek-V4.1-Flash release.",
+      "rates": {
+        "inputCacheMiss": 0.22,
+        "inputCacheHit": 0.007,
+        "output": 0.66
+      }
+    }
+  ]
+}

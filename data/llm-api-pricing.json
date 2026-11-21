@@ -1,0 +1,329 @@
+{
+  "publisher": "deepseek.ai — The Independent DeepSeek Guide (not affiliated with DeepSeek)",
+  "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Data by deepseek.ai (https://deepseek.ai/deepseek-data)",
+  "docs": "https://deepseek.ai/deepseek-data",
+  "lastVerified": "2026-11-19",
+  "unit": "USD per 1,000,000 tokens, standard tier",
+  "models": [
+    {
+      "id": "gpt-6.2-astra",
+      "model": "GPT-6.2 Astra",
+      "vendor": "OpenAI",
+      "current": true,
+      "input": 8,
+      "cachedInput": 0.4,
+      "output": 40,
+      "longContext": {
+        "threshold": 272000,
+        "input": 16,
+        "cachedInput": 0.8,
+        "output": 60
+      },
+      "note": "OpenAI's frontier model. Above 272K input tokens: $16 / $60.",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "model": "GPT-6.2 Sol",
+      "vendor": "OpenAI",
+      "current": true,
+      "input": 2,
+      "cachedInput": 0.1,
+      "output": 10,
+      "longContext": {
+        "threshold": 272000,
+        "input": 4,
+        "cachedInput": 0.2,
+        "output": 15
+      },
+      "note": "OpenAI's everyday model. Above 272K input tokens: $4 / $15.",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-6.1-terra",
+      "model": "GPT-6.1 Terra",
+      "vendor": "OpenAI",
+      "current": true,
+      "input": 1,
+      "cachedInput": 0.05,
+      "output": 5,
+      "longContext": {
+        "threshold": 272000,
+        "input": 2,
+        "cachedInput": 0.1,
+        "output": 7.5
+      },
+      "note": "Above 272K input tokens: $2 / $7.50.",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-6-luna",
+      "model": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "current": true,
+      "input": 0.1,
+      "cachedInput": 0.01,
+      "output": 0.5,
+      "longContext": {
+        "threshold": 272000,
+        "input": 0.2,
+        "cachedInput": 0.02,
+        "output": 0.75
+      },
+      "note": "OpenAI's cheapest current model. Above 272K input tokens: $0.20 / $0.75.",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "model": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 4,
+      "cachedInput": 0.4,
+      "output": 20,
+      "longContext": {
+        "threshold": 272000,
+        "input": 8,
+        "cachedInput": 0.8,
+        "output": 30
+      },
+      "note": "Promotional pricing until 30 November 2026.",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "model": "GPT-5.6 Terra",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 2,
+      "cachedInput": 0.2,
+      "output": 12,
+      "longContext": {
+        "threshold": 272000,
+        "input": 4,
+        "cachedInput": 0.4,
+        "output": 18
+      },
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "model": "GPT-5.6 Luna",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 0.2,
+      "cachedInput": 0.02,
+      "output": 1.2,
+      "longContext": {
+        "threshold": 272000,
+        "input": 0.4,
+        "cachedInput": 0.04,
+        "output": 1.8
+      },
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.5",
+      "model": "GPT-5.5",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 30,
+      "longContext": {
+        "threshold": 272000,
+        "input": 10,
+        "cachedInput": 1,
+        "output": 45
+      },
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.4",
+      "model": "GPT-5.4",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 2.5,
+      "cachedInput": 0.25,
+      "output": 15,
+      "longContext": {
+        "threshold": 272000,
+        "input": 5,
+        "cachedInput": 0.5,
+        "output": 22.5
+      },
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "model": "GPT-5.4 mini",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 0.75,
+      "cachedInput": 0.075,
+      "output": 4.5,
+      "longContext": null,
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "model": "GPT-5.4 nano",
+      "vendor": "OpenAI",
+      "current": false,
+      "input": 0.2,
+      "cachedInput": 0.02,
+      "output": 1.25,
+      "longContext": null,
+      "note": null,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "claude-fable-5.2",
+      "model": "Claude Fable 5.2",
+      "vendor": "Anthropic",
+      "current": true,
+      "input": 8,
+      "cachedInput": 0.2,
+      "output": 40,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-opus-5.5",
+      "model": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "current": true,
+      "input": 4,
+      "cachedInput": 0.2,
+      "output": 20,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-sonnet-5.5",
+      "model": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "current": true,
+      "input": 2,
+      "cachedInput": 0.1,
+      "output": 10,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-haiku-5.5",
+      "model": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "current": true,
+      "input": 0.1,
+      "cachedInput": 0.01,
+      "output": 0.5,
+      "longContext": {
+        "threshold": 100000,
+        "input": 0.5,
+        "cachedInput": 0.05,
+        "output": 2.5
+      },
+      "note": "For prompts up to 100K tokens. Longer prompts: $0.50 / $2.50.",
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-opus-5",
+      "model": "Claude Opus 5",
+      "vendor": "Anthropic",
+      "current": false,
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 25,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-opus-4.8",
+      "model": "Claude Opus 4.8",
+      "vendor": "Anthropic",
+      "current": false,
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 25,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "model": "Claude Sonnet 5",
+      "vendor": "Anthropic",
+      "current": false,
+      "input": 2,
+      "cachedInput": 0.2,
+      "output": 10,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-fable-5",
+      "model": "Claude Fable 5",
+      "vendor": "Anthropic",
+      "current": false,
+      "input": 10,
+      "cachedInput": 1,
+      "output": 50,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "claude-haiku-4.5",
+      "model": "Claude Haiku 4.5",
+      "vendor": "Anthropic",
+      "current": false,
+      "input": 1,
+      "cachedInput": 0.1,
+      "output": 5,
+      "longContext": null,
+      "note": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "model": "Gemini 3.1 Pro",
+      "vendor": "Google",
+      "current": true,
+      "input": 2,
+      "cachedInput": 0.2,
+      "output": 12,
+      "longContext": {
+        "threshold": 200000,
+        "input": 4,
+        "cachedInput": 0.4,
+        "output": 18
+      },
+      "note": "Prompts up to 200K tokens. Above 200K: $4.00 input / $18.00 output.",
+      "source": "https://ai.google.dev/pricing"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "model": "Gemini 3.8 Flash",
+      "vendor": "Google",
+      "current": true,
+      "input": 0.75,
+      "cachedInput": 0.075,
+      "output": 3.75,
+      "longContext": null,
+      "note": "Price until 31 December 2026; doubles to $1.50 / $7.50 from 1 January 2027.",
+      "source": "https://ai.google.dev/pricing"
+    }
+  ]
+}

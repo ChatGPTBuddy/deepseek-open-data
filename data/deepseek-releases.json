@@ -1,0 +1,233 @@
+{
+  "publisher": "deepseek.ai — The Independent DeepSeek Guide (not affiliated with DeepSeek)",
+  "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Data by deepseek.ai (https://deepseek.ai/deepseek-data)",
+  "docs": "https://deepseek.ai/deepseek-data",
+  "lastChecked": "2026-11-20",
+  "source": "https://api-docs.deepseek.com/updates/",
+  "entries": [
+    {
+      "date": "2026-11-13",
+      "title": "Full application API suite for deepseek-flash",
+      "apiNames": [
+        "deepseek-flash"
+      ],
+      "summary": "Web search, file input, URL reading and model safety become available for deepseek-flash in the Messages, Responses and Chat Completions APIs. DeepSeek also adds standalone Search and Fetch, OCR, speech-to-text and text-to-speech APIs, plus an open-source demo chat client.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2026-10-17",
+      "title": "DeepSeek-V4.1-Flash-1017 replaces V4.1-Flash",
+      "apiNames": [
+        "deepseek-flash"
+      ],
+      "summary": "The model behind deepseek-flash is upgraded to DeepSeek-V4.1-Flash-1017. The way you call it and the price stay the same. DeepSeek also opens its own search API.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2026-09-10",
+      "title": "DeepSeek-V4.1-Flash released, Flash prices cut",
+      "apiNames": [
+        "deepseek-flash"
+      ],
+      "summary": "DeepSeek-V4.1-Flash, with native image understanding, ships as deepseek-flash and Flash prices come down (from 04:00 UTC). V4-Flash and V4-Flash-Vision-Exp are retired; their names are routed to V4.1-Flash. V4-Pro stays available with unchanged billing.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/blog/deepseek-v41-flash-generally-available"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "DeepSeek-V4-Flash-Vision-Exp (experimental)",
+      "apiNames": [
+        "deepseek-v4-flash-vision-exp"
+      ],
+      "summary": "An experimental multimodal version of V4-Flash, under its own model name.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2026-08-13",
+      "title": "DeepSeek-V4-Pro GA, and peak / off-peak pricing announced",
+      "apiNames": [
+        "deepseek-v4-pro"
+      ],
+      "summary": "V4-Pro reaches general availability with stronger agent skills, native Responses API support for Codex, and low / high / max thinking effort. DeepSeek announces peak and off-peak pricing, with off-peak at half the peak price, taking effect at 16:00 UTC on 16 August 2026.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/pricing"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "DeepSeek-V4-Flash public beta (V4-Flash-0731)",
+      "apiNames": [
+        "deepseek-v4-flash"
+      ],
+      "summary": "A re-post-trained V4-Flash (same architecture and size as the preview) goes into public beta with stronger agent skills and Responses API support for Codex. V4-Pro and the app are unchanged.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/blog/deepseek-v4-flash-ga-agent-benchmarks"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "DeepSeek-V4-Pro and DeepSeek-V4-Flash released",
+      "apiNames": [
+        "deepseek-v4-pro",
+        "deepseek-v4-flash"
+      ],
+      "summary": "The V4 generation arrives on the existing base URL, with OpenAI and Anthropic compatible interfaces. The old deepseek-chat and deepseek-reasoner names are scheduled to stop on 24 July 2026 and until then map to V4-Flash without and with thinking.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/deepseek-v4"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "DeepSeek-V3.2, plus the temporary V3.2-Speciale",
+      "apiNames": [
+        "deepseek-chat",
+        "deepseek-reasoner"
+      ],
+      "summary": "deepseek-chat and deepseek-reasoner move to DeepSeek-V3.2. V3.2-Speciale runs on a temporary endpoint until 15 December 2025, without tool calls.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2025-09-29",
+      "title": "DeepSeek-V3.2-Exp",
+      "apiNames": [
+        "deepseek-chat",
+        "deepseek-reasoner"
+      ],
+      "summary": "Both API names move to the experimental V3.2-Exp.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2025-09-22",
+      "title": "DeepSeek-V3.1-Terminus",
+      "apiNames": [
+        "deepseek-chat",
+        "deepseek-reasoner"
+      ],
+      "summary": "An update to V3.1 with more consistent language and better coding and search agents.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2025-08-21",
+      "title": "DeepSeek-V3.1, one hybrid model for chat and reasoning",
+      "apiNames": [
+        "deepseek-chat",
+        "deepseek-reasoner"
+      ],
+      "summary": "V3.1 serves both names: deepseek-chat without thinking, deepseek-reasoner with thinking.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/blog/deepseek-v31-silent-revolution"
+    },
+    {
+      "date": "2025-05-28",
+      "title": "DeepSeek-R1-0528",
+      "apiNames": [
+        "deepseek-reasoner"
+      ],
+      "summary": "An upgraded R1 with large gains on maths, science and coding tests; it can use more tokens per answer than the first R1.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/deepseek-r1"
+    },
+    {
+      "date": "2025-03-24",
+      "title": "DeepSeek-V3-0324",
+      "apiNames": [
+        "deepseek-chat"
+      ],
+      "summary": "An upgraded V3 with better reasoning, front-end code, Chinese writing and function calling.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2025-01-20",
+      "title": "DeepSeek-R1, the reasoning model",
+      "apiNames": [
+        "deepseek-reasoner"
+      ],
+      "summary": "R1 launches as deepseek-reasoner and makes DeepSeek known worldwide.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": "https://deepseek.ai/deepseek-r1"
+    },
+    {
+      "date": "2024-12-26",
+      "title": "DeepSeek-V3",
+      "apiNames": [
+        "deepseek-chat"
+      ],
+      "summary": "deepseek-chat moves to V3. The API itself does not change.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-12-10",
+      "title": "DeepSeek-V2.5-1210",
+      "apiNames": [
+        "deepseek-chat"
+      ],
+      "summary": "A final V2.5 update with better maths and coding, plus improved file upload and web page summaries.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-09-05",
+      "title": "DeepSeek-V2.5 merges Chat and Coder",
+      "apiNames": [
+        "deepseek-chat",
+        "deepseek-coder"
+      ],
+      "summary": "V2 Chat and Coder-V2 become one model, reachable under both names.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-08-02",
+      "title": "Context caching on disk",
+      "summary": "Repeated prompt prefixes are cached automatically and billed at a much lower cache-hit price.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-07-24",
+      "title": "DeepSeek-Coder-V2-0724",
+      "apiNames": [
+        "deepseek-coder"
+      ],
+      "summary": "An update to the coding model. The next day the API gains JSON mode, function calling and fill-in-the-middle completion.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-06-28",
+      "title": "DeepSeek-V2-0628",
+      "apiNames": [
+        "deepseek-chat"
+      ],
+      "summary": "An update to V2 Chat with better coding, maths and role-play.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-06-14",
+      "title": "DeepSeek-Coder-V2-0614",
+      "apiNames": [
+        "deepseek-coder"
+      ],
+      "summary": "Coder-V2 arrives on the API.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    },
+    {
+      "date": "2024-05-17",
+      "title": "DeepSeek-V2-0517",
+      "apiNames": [
+        "deepseek-chat"
+      ],
+      "summary": "The first entry in DeepSeek's API change log: V2 Chat with better instruction following and JSON output.",
+      "source": "https://api-docs.deepseek.com/updates/",
+      "coverage": null
+    }
+  ]
+}
