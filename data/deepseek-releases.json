@@ -3,7 +3,7 @@
   "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Data by deepseek.ai (https://deepseek.ai/deepseek-data)",
   "docs": "https://deepseek.ai/deepseek-data",
-  "lastChecked": "2026-11-20",
+  "lastChecked": "2026-11-22",
   "source": "https://api-docs.deepseek.com/updates/",
   "entries": [
     {
@@ -14,7 +14,7 @@
       ],
       "summary": "Web search, file input, URL reading and model safety become available for deepseek-flash in the Messages, Responses and Chat Completions APIs. DeepSeek also adds standalone Search and Fetch, OCR, speech-to-text and text-to-speech APIs, plus an open-source demo chat client.",
       "source": "https://api-docs.deepseek.com/updates/",
-      "coverage": null
+      "coverage": "https://deepseek.ai/blog/deepseek-web-search-api-ocr-speech"
     },
     {
       "date": "2026-10-17",
